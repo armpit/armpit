@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+![Metrics](https://github.com/armpit/armpit/blob/main/github-metrics.svg)
+
 <!--
 **armpit/armpit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
