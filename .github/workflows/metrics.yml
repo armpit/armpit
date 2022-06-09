@@ -1,26 +1,17 @@
-name: Generate Metrics
-
+name: Metrics
 on:
-  schedule:
-    - cron: "0 0 * * *"
+  # Schedule daily updates
+  schedule: [{cron: "0 0 * * *"}]
+  # (optional) Run workflow manually
   workflow_dispatch:
-  push:
-    branches:
-      - main
-
+  # (optional) Run workflow when pushing on master/main
+  push: {branches: ["master", "main"]}
 jobs:
-  metrics:
+  github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Metrics embed
-        uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          # Options
-          user: armpit
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: Australia/Brisbane
-          plugin_sponsors: yes
-          plugin_sponsors_sections: goal, about
-          plugin_traffic: yes
