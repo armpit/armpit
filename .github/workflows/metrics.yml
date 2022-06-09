@@ -17,10 +17,10 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           # Options
-          user: xunholy
+          user: armpit
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: Australia/Sydney
+          config_timezone: Australia/Brisbane
           plugin_sponsors: yes
           plugin_sponsors_sections: goal, about
           plugin_traffic: yes
