@@ -1071,6 +1071,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-10.2, 12)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -1146,7 +1151,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>qtsone/proxmox-ntfy</span>
-                                        <span>starred 1 day ago</span>
+                                        <span>starred 2 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Monitor Proxmox Cluster and send alerts with NTFY</div>
@@ -1199,7 +1204,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>bcicen/ctop</span>
-                                        <span>starred 8 days ago</span>
+                                        <span>starred 9 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Top-like interface for container metrics</div>
@@ -1252,7 +1257,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>neuroforgede/docker-swarm-proxy</span>
-                                        <span>starred 18 days ago</span>
+                                        <span>starred 19 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">What if you wanted a docker exec, but for Docker swarm? - Control any node in the swarm from your CLI</div>
@@ -1305,7 +1310,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>Notifiarr/dockwatch</span>
-                                        <span>starred 18 days ago</span>
+                                        <span>starred 19 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Automated Container Management and Notifications w/ beautiful WebUI</div>
